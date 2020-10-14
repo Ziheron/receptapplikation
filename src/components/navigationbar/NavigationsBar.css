@@ -1,6 +1,16 @@
-.navigationsBarContainer {
+  
+.navigationBarContainer {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     background-color: orange;
     padding: 0.6%;
+}
+
+.signin {
+    grid-column: 10/10;
+    cursor: pointer;
+}
+
+.navigationBarLogotype {
+    cursor: pointer;
 }
